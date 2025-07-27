@@ -18,7 +18,9 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-          <a class="navbar-brand" href="./index.html">Transicion y Animaciones</a>
+          <a class="navbar-brand" href="./index.html"
+            >Transicion y Animaciones</a
+          >
           <button
             class="navbar-toggler"
             type="button"
@@ -76,9 +78,40 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main class="container">
+      <section class="my-4">
+        <h1 class="text-center">Practica de transiciones y animaciones</h1>
+        <article class="mt-4">
+          <h2>Transicion con CSS</h2>
+          <p class="lead">
+            Permite cambiar suavemente una propiedad CSS de un estado a otro
+            durante un periodo de tiempo
+          </p>
+          <h3>Propiedades de las Transiciones</h3>
+          <ul>
+            <li>transition-property:Define que propiedad cambiar.</li>
+            <li>transition-duration:Define la duracion del cambio.(s o m)</li>
+            <li>
+              transition-timing-function:Controla la aceleracion o
+              desaceleracion
+              <ul>
+                <li>linear → velocidad constante.</li>
+                <li>
+                  ease (por defecto) → comienza lenta, acelera y luego
+                  desacelera.
+                </li>
+                <li>ease-in → comineza lenta y acelera.</li>
+                <li>ease-out → comienza rapida y desacelera.</li>
+                <li>ease-in → comineza lenta y acelera.</li>
+              </ul>
+            </li>
+            <li>transition-delay:Retrasa el inicio de la transicion.</li>
+          </ul>
+        </article>
+      </section>
+    </main>
     <footer class="bg-dark-subtle text-center py-4">
-      <p> &copy; Todos los Derechos Resevados</p>
+      <p>&copy; Todos los Derechos Resevados</p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
