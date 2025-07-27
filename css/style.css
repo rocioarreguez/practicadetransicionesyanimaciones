@@ -1,22 +1,32 @@
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-main{
-    flex-grow: 1;
+main {
+  flex-grow: 1;
 }
 
 /* transicion de color */
-.item{
-    background-color: tomato;
-    width: 200px;
-    height: 200px;
-    transition-property:background-color ;
-    transition-duration: 800ms;
-    transition-timing-function: cubic-bezier(0.97,-0.18,0.20,1.13);
-   /* transition-delay: 300ms; */
+.item {
+  background-color: tomato;
+  width: 200px;
+  height: 200px;
+  transition-property: background-color;
+  transition-duration: 800ms;
+  transition-timing-function: cubic-bezier(0.97, -0.18, 0.2, 1.13);
+  /* transition-delay: 300ms; */
 }
-.item:hover{
-    background-color: lightblue;
-    }
+
+.item:hover {
+  background-color: lightblue;
+}
+
+.parrafoAmplio {
+    transition: font-size 300ms ease-out;
+}
+
+.parrafoAmplio:hover {
+  font-size: large;
+  cursor: pointer;
+}
