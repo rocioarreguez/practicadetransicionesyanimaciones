@@ -6,3 +6,17 @@ body{
 main{
     flex-grow: 1;
 }
+
+/* transicion de color */
+.item{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    transition-property:background-color ;
+    transition-duration: 800ms;
+    transition-timing-function: cubic-bezier(0.97,-0.18,0.20,1.13);
+   /* transition-delay: 300ms; */
+}
+.item:hover{
+    background-color: lightblue;
+    }
