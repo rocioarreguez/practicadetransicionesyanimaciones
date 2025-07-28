@@ -30,3 +30,15 @@ main {
   font-size: large;
   cursor: pointer;
 }
+
+.itemOpacidad{
+   width: 200px;
+   height: 100px;
+   background-color: aquamarine;
+   opacity: 0.6;
+   transition: opacity 200ms ease-in-out;
+}
+
+.itemOpacidad:hover{
+    opacity: 1;
+}
